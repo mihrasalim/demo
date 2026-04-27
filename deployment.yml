@@ -16,8 +16,7 @@ spec:
       - name: product
         image: yekqpapp4q/mihras:latest
         ports:
-        - containerPort: 80
-        - TargetPort: 3000
+        - containerPort: 3000
         envFrom:
         - configMapRef:
             name: product-config
