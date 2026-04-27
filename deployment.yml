@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: product
-        image: yekqpapp4q/product:v1
+        image: yekqpapp4q/mihras:latest
         ports:
         - containerPort: 80
         - TargetPort: 3000
