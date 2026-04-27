@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: product
-        image: yekqpapp4q/nodejs-app:v4
+        image: yekqpapp4q/product:v1
         ports:
         - containerPort: 3000
         envFrom:
